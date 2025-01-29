@@ -1,0 +1,226 @@
+
+*{
+  font-size: system-ui;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e3e3e3;
+  padding-inline: 18%;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 300;
+  text-decoration: none;
+
+}
+.navbar a, .navbar h3{
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.buttonHolder{
+  margin-top: 2rem;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 55rem;
+}
+.buttonPreview{
+  display: flex;
+  flex-direction: column;
+  border-radius: 2.5px;
+  background-color: rgb(47, 47, 47);
+  height: 10rem;
+  text-align: center;
+  justify-content: center;
+  justify-content: center;
+  width: 15rem;
+  transition: all 0.3s ease;
+  box-shadow: 5px 5px 0px 5px rgb(41, 41, 41);
+  font-weight: 400;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.buttonPreview{
+  text-decoration: none;
+  color: rgb(50,50,50);
+}
+.buttonPreview:hover{
+  transform: translate(5px, 5px);
+  box-shadow: 2px 2px 0px 2px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.errorText{
+  font-size: 25px;
+  color: rgb(243, 101, 101);
+}
+
+.linkHolder{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.buttonDetails{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 25%;
+  height: 80%;
+}
+
+.buttonOverview{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+.button{
+  display: flex;
+  flex-direction: column;
+  border-radius: 2.5px;
+  width: 25rem;
+  height: 25rem;
+  box-shadow: 5px 5px 0px 5px rgb(41, 41, 41);
+  transition: all 0.3s ease-in-out;
+  font-weight: 400;
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  justify-content: center;
+  background-color: #61dafb;
+}
+
+.button p{
+  font-size: 23px;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.button h3{
+  font-size: 28px;
+  margin: 0;
+}
+
+.descriptionHolder{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 100%;
+  width: 50%;
+
+}
+.descriptionHolder p{
+  text-align: left;
+  text-wrap: wrap;
+  font-size: 19px;
+}
+
+.button:hover{
+  transform: translate(5px, 5px);
+  box-shadow: 2px 2px 0px 2px;
+}
+
+.descriptionHolder form{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.descriptionHolder form input{
+  border: 2px solid rgb(0,0,0,0.15);
+  outline: none;
+  border-radius: 4px;
+  height: 1.85rem;
+  font-size: 16px;
+  padding-inline: 0.5rem;
+}
+.descriptionHolder form textarea{
+  height: 5rem;
+  font-size: 16px;
+  padding: 0.5rem;
+  resize: none;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid rgb(0,0,0,0.15);
+}
+
+.descriptionHolder form label{
+  font-size: 19px;
+  margin-top: 0.5rem;
+}
+
+.descriptionHolder form button,.deleteBtn{
+  height: 3rem;
+  margin-top: 1rem;
+  background-color: rgb(243, 193, 101);
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0 2px rgb(179, 142, 75);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  color: rgb(120, 95, 47);
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.deleteBtn{
+  background-color: rgb(243, 101, 101);
+  box-shadow: 3px 3px 0 2px rgb(184, 66, 66);
+  color: rgb(136, 43, 43);
+  height: 5rem;
+  margin-top: 4rem;
+}
+
+.descriptionHolder form button:hover, .deleteBtn:hover{
+  transform: translate(2px, 2px);
+  box-shadow: 0.5px 0.5px 0px 1px rgb(179, 142, 75);
+}
+.create{
+  width: 100%;
+  margin-inline: 20%;
+}
+
+.createHolder{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 2rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "buttons": [
+    {
+      "title": "Button 2",
+      "content": "This is the content of Blog 2",
+      "color": "rgb(75,100,255)",
+      "description": "This button is like a chameleon at a disco party, constantly changing its hues to match the vibrant beats. Its cool blue tones are reminiscent of a serene ocean, but don't be fooled – press it, and it unleashes a burst of energy that feels like a high-five from a lightning bolt. It's the life of the interface, bringing a touch of excitement and unpredictability to your digital experience. This button doesn't just sit there; it dances, it dazzles, and it dares you to press it and join the fun.",
+      "id": "2"
+    },
+    {
+      "title": "Button 3",
+      "content": "This is the content of Blog 3",
+      "color": "rgb(175,50,220)",
+      "description": "This button is like a mischievous pixie, always up to some playful antics. Its deep purple hue gives it an air of mystery, while the subtle sparkles embedded within hint at its magical nature. Press it, and you'll feel a whimsical jolt, as if you've just been sprinkled with fairy dust. It's the perfect button for those who love a touch of enchantment in their digital adventures.",
+      "id": "3"
+    },
+    {
+      "title": "Button 4",
+      "content": "This is the content of Blog 4",
+      "color": "rgb(100,100,255)",
+      "description": "This button is the epitome of cool, like a suave secret agent in a crisp blue suit. Its sleek design and icy color scheme exude confidence and sophistication. When you press it, you can almost hear the smooth jazz playing in the background. It's the button that always knows the right thing to say and do, making your interface feel effortlessly stylish.",
+      "id": "4"
+    },
+    {
+      "title": "Button 5",
+      "content": "This is the content of Blog 5",
+      "color": "rgb(100,255,150)",
+      "description": "This button is like a burst of fresh minty goodness, invigorating and refreshing. Its bright green color is reminiscent of a lush meadow on a sunny day. Press it, and you'll feel a cool breeze, as if you've just stepped into a serene garden. It's the button that brings a breath of fresh air to your interface, making everything feel more vibrant and alive.",
+      "id": "5"
+    },
+    {
+      "id": "f790",
+      "title": "adwawd",
+      "content": "awdawd",
+      "color": "#28df36",
+      "description": "awdawd"
+    },
+    {
+      "id": "6e46",
+      "title": "adad",
+      "content": "asdasd",
+      "color": "#2674c1",
+      "description": "adadad"
+    }
+  ]
+}
